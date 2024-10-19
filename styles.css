@@ -71,4 +71,19 @@ p {
 }
 */
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+/* Gerais */
+
+.Margin_top {
+    margin-top: 40px;
+}
