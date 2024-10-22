@@ -76,7 +76,7 @@ p {
 * {
     margin: 0;
     padding: 0;
-    box-shadow: 0px 0px 1px 1px inset yellow;
+    /*box-shadow: 0px 0px 1px 1px inset yellow;*/
 }
 
 body {
@@ -87,7 +87,7 @@ body {
 
 /* Gerais */
 
-.text-center {
+.text_center {
     text-align: center;
 }
 
@@ -193,6 +193,38 @@ body {
     margin-left: 50px;
 }
 
+/* Contatos */
+
+.container_contatos {
+    background-color: #061f35;
+    padding: 80px;
+}
+
+.container_contatos h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.container_contatos h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+    width: 40%;
+    margin: auto;
+    border: 1px solid #105088;
+    background-color: #05192a;
+    border-radius: 60px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contatos {
+    display: block;
+    font-size: 2em;
+    text-decoration: none;
+    color: #2097ff;
+    margin-bottom: 20px;
+}
+
 /* --------------------------------------- */
 
 .container_servico_contatos {
@@ -221,7 +253,6 @@ body {
     padding: 20px 60px;
     margin: 10px auto;
     border-radius: 30px;
-    overflow: auto;
 }
 
 .botoes_servico_contatos a:hover {
