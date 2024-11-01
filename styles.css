@@ -239,6 +239,7 @@ body {
     margin: auto;
     margin-bottom: 10px;
     border-radius: 30px;
+    padding: 10px;
 }
 
 .container_tabela table {
@@ -252,7 +253,7 @@ body {
     padding: 10px;
 }
 
-.container_tabela .Linha_Esp {
+.Linha_Esp {
     background-color: rgb(57, 0, 118);
 }
 
@@ -261,7 +262,7 @@ body {
 }
 
 .container_tabela h1, .container_tabela th {
-    background-color: #05192a;    
+    background-color: #05192a; 
 }
 
 /* --------------------------------------- */
